@@ -14,7 +14,7 @@ if (IS_PROD) {
 // if your use import on Demand, Use this code
 plugins.push(['import', {
   'libraryName': 'ant-design-vue',
-  'libraryDirectory': 'es',
+  'libraryDirectory': 'lib',
   'style': "css" // `style: true` 会加载 less 文件
 }])
 
